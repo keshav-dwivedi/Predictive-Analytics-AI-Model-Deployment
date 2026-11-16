@@ -1,0 +1,23 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and secrets
+.env
+.venv/
+env/
+venv/
+
+# Large dataset files (keep raw CSV out of Git repo)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models and temporary caches
+*.tmp
+.ipynb_checkpoints/
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
